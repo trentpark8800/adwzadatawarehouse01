@@ -1,0 +1,35 @@
+# dbt build artifacts
+target/
+dbt_packages/
+logs/
+dbt.log
+
+# dbt local/runtime state
+.partial_parse.msgpack
+manifest.json
+run_results.json
+catalog.json
+graph.gpickle
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# IDE / editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,5 @@
+sources:
+  - name: adwzasqldb01
+    schema: SalesLT
+    tables:
+      - name: Address
