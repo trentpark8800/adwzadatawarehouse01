@@ -10,7 +10,6 @@
 
 SELECT
     ProductID,
-    Name,
     ProductNumber,
     Color,
     StandardCost,
