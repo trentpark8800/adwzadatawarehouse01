@@ -24,7 +24,7 @@ clean-targets:         # directories to be removed by `dbt clean`
 
 snapshots:
   adwzadatawarehouse01:
-    +target_schema: bronze_snapshots
+    +target_schema: silver_base
 
 # Configuring models
 # Full documentation: https://docs.getdbt.com/docs/configuring-models
