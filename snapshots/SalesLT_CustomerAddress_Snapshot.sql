@@ -11,7 +11,6 @@
 SELECT
     CustomerID,
     AddressID,
-    AddressType,
     rowguid,
     ModifiedDate
 FROM [adwzasqldb01].[SalesLT].[CustomerAddress]

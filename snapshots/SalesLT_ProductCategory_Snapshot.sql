@@ -11,7 +11,6 @@
 SELECT
     ProductCategoryID,
     ParentProductCategoryID,
-    Name,
     rowguid,
     ModifiedDate
 FROM [adwzasqldb01].[SalesLT].[ProductCategory]
