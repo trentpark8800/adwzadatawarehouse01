@@ -15,7 +15,7 @@ SELECT
     City,
     PostalCode,
     rowguid,
-    CAST(ModifiedDate AT TIME ZONE 'UTC' AS datetimeoffset) AS ModifiedDate
+    ModifiedDate
 FROM [adwzasqldb01].[SalesLT].[Address]
 
 {% endsnapshot %}

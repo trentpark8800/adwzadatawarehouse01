@@ -12,7 +12,7 @@ SELECT
     ProductCategoryID,
     ParentProductCategoryID,
     rowguid,
-    CAST(ModifiedDate AT TIME ZONE 'UTC' AS datetimeoffset) AS ModifiedDate
+    ModifiedDate
 FROM [adwzasqldb01].[SalesLT].[ProductCategory]
 
 {% endsnapshot %}
