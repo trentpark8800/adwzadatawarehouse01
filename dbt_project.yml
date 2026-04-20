@@ -37,3 +37,6 @@ models:
     # Config indicated by + and applies to all files under models/example/
     example:
       +materialized: view
+
+on-run-end: 
+  - "{{ log_dbt_results(results) }}"
